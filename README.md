@@ -31,7 +31,7 @@ WIP
 
 ## License
 
-MIT
+Apache 2.0
 
 **Free Software, Hell Yeah!**
 
