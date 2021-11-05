@@ -1,5 +1,6 @@
 # Cinemetrica 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
 Cinemetrica is a Python module with useful tools for the statistical analysis of movies 
 
 With AI/ML entering the film industry the first computer generated featur film might not be so far away. Whilist movie script generation has already produced some comic, yet interesting, results (Have a look at [Scraps of Mechanical Souls](https://www.youtube.com/watch?v=g7wq5mYCOV8&ab_channel=BriefcasePictures) and [Sunspring](https://youtu.be/LY7x2Ihqjmc)), for computers to be able to produce a movie will require the development not only of AI-screenwriters, but also AI directors, cinematographers, editors, sound designers and, the biggest feat of all, AI actors. Such accomplishment will be possible only by establishing first a thorough framework of tools for the statistical analysis of film and the generation of detailed and robust datasets. Cinemetrica is an attempt to do just that.
