@@ -1,7 +1,7 @@
 # Cinemetrica 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-![Alt text](relative/path/to/averagePalette2.jpg)
+![Alt text](https://github.com/supergeniodelmale/Cinemetrica/blob/main/averagePalette2.jpg)
 
 Cinemetrica is a Python module with useful tools for the statistical analysis of movies 
 
