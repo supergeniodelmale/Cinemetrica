@@ -32,7 +32,7 @@ def shot_detector(video_path):
     return shot_list
 
 
-def get_frames(video_path, image_format, quality, scale):
+def get_shot_frames(video_path, image_format, quality, scale):
     if not os.path.isdir('FRAMES'):
         os.mkdir('FRAMES')
     video_manager = VideoManager([video_path])
