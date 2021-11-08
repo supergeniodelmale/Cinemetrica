@@ -29,7 +29,9 @@ Cinemetrica requires [PySceneDetect](https://github.com/Breakthrough/PySceneDete
 
 ## Documentation
 
-sh/ hello
+```python
+scene_detect(video_path)
+```
 
 ## License
 
