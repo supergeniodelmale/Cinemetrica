@@ -29,9 +29,14 @@ Cinemetrica requires [PySceneDetect](https://github.com/Breakthrough/PySceneDete
 
 ## Documentation
 
-| Command | Description |
+| Function | Description |
 | --- | --- |
-| ```python shot_detector(video_path) ``` | test |
+| `python shot_detector(video_path)` | Given the path to a `.mp4`/`.mkv` file returns a list containing all the shots detected as tuples of (start, end) `FrameTimecodes` (loot at `[PySceneDetect](https://github.com/Breakthrough/PySceneDetect)` documentation for `FrameTimecodes` objects. |
+| `get_frames(video_path, image_format, quality, scale)` | test |
+|  | test |
+|  | test |
+|  | test |
+|  | test |
 
 ```python
 get_frames(video_path, image_format, quality, scale)
