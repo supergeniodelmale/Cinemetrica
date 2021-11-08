@@ -33,10 +33,10 @@ Cinemetrica requires [PySceneDetect](https://github.com/Breakthrough/PySceneDete
 | --- | --- |
 | `shot_list` | List containing all the shots detected as tuples of (start, end) `FrameTimecodes` (loot at [PySceneDetect](https://github.com/Breakthrough/PySceneDetect) documentation for `FrameTimecodes` objects. |
 
-| Function | Description | Parameters |
-| --- | --- | --- |
-| `shot_detector(video_path)` | Returns a `shot_list` | `video_path`: path `.mp4`/`.mkv` file |
-| `get_shot_frames(video_path, image_format, quality, scale)` | Extracts one frame per shot detected. Images are stored in `FRAMES` folder.| `video_path`: path `.mp4`/`.mkv`; <br /> `image_format`: `.jpg` or `.png`;<br /> `quality`: from `1` to `100`; <br /> `scale`: downscale factor. |
+| Function | Description | 
+| --- | --- | 
+| `shot_detector(video_path)` | Returns a `shot_list` <br /> `video_path`: path `.mp4`/`.mkv` file |
+| `get_shot_frames(video_path, image_format, quality, scale)` | Extracts one frame per shot detected. Images are stored in `FRAMES` folder. <br /> `video_path`: path `.mp4`/`.mkv`; <br /> `image_format`: `.jpg` or `.png`;<br /> `quality`: from `1` to `100`; <br /> `scale`: downscale factor. |
 
 
 ```python
