@@ -29,7 +29,7 @@ Cinemetrica requires [PySceneDetect](https://github.com/Breakthrough/PySceneDete
 
 ## Documentation
 
-WIP
+sh/ hello
 
 ## License
 
