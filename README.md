@@ -36,7 +36,7 @@ Cinemetrica requires [PySceneDetect](https://github.com/Breakthrough/PySceneDete
 | Function | Description |
 | --- | --- |
 | `shot_detector(video_path)` | Given the path to a `.mp4`/`.mkv` file returns a `shot_list` |
-| `get_frames(video_path, image_format, quality, scale)` | test |
+| `get_shot_frames(video_path, image_format, quality, scale)` | Given the path to a `.mp4`/`.mkv` file extracts one frame per shot detected. Images are stored in `FRAMES` folder. `image_format` can be `.jpg` or `.png`, `quality` from `1` to `100`, `scale` is the downscale factor. |
 |  | test |
 |  | test |
 |  | test |
