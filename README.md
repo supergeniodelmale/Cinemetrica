@@ -37,31 +37,11 @@ Cinemetrica requires [PySceneDetect](https://github.com/Breakthrough/PySceneDete
 | --- | --- | 
 | `shot_detector(video_path)` | Returns a `shot_list` <br /><br /> `video_path`: path `.mp4`/`.mkv` file. <br />|
 | `get_shot_frames(video_path, image_format, quality, scale)` | Extracts one frame per shot detected. Images are stored in `FRAMES` folder. <br /><br /> `video_path`: path `.mp4`/`.mkv`; <br /> `image_format`: `.jpg` or `.png`;<br /> `quality`: from `1` to `100`; <br /> `scale`: downscale factor. <br /> |
-
-
-```python
-get_frames(video_path, image_format, quality, scale)
-```
-
-```python
-list_convert(shot_list, has_id)
-```
-
-```python
-mean_shot_length(shot_list) 
-```
-
-```python
-longest_n_shots(shot_list, n)
-```
-
-```python
-shortest_n_shots(shot_list, n)
-```
-
-```python
-palette(path, n, width, height, id)
-```
+| `list_convert(shot_list, has_id)` | Returns a list of tuples `(shot_number, shot_duration(s))` if `has_id` = true, else returns a list of `shot_duration(s)`|
+| `mean_shot_length(shot_list)` | Returns the tuple `(mean shot length, standard deviation)`. |
+| `longest_n_shots(shot_list, n)` | Returns the last `n` longest shots in ascending order as tuples `(shot_number, duration)`. |
+| `shortest_n_shots(shot_list, n)` | Returns the last `n` shortest shots in ascending order as tuples `(shot_number, duration)`. |
+| `palette(path, n, width, height, id)` | Generates a `n`-color palette from any image stored in `path` folder. Palette images are store in `PALETTE` folder.  `width, height` refer to the dimensions of the palette image. |
 
 ## License
 
