@@ -1,4 +1,4 @@
-# Cinemetrica 
+# Cinemetrica (WIP)
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 ![Alt text](https://github.com/supergeniodelmale/Cinemetrica/blob/main/averagePalette2.jpg)
